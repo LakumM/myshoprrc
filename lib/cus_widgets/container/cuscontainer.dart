@@ -13,7 +13,7 @@ class Cus_Container extends StatelessWidget {
     return Container(
       child: child,
       margin: EdgeInsets.symmetric(vertical: 4,horizontal: 5),
-        padding : EdgeInsets.symmetric(vertical: 0,horizontal: 10),
+        padding : EdgeInsets.symmetric(vertical: 10,horizontal: 10),
       height: height!,
       width: width!,
       decoration: BoxDecoration(color: ccolor!,

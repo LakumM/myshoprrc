@@ -28,7 +28,7 @@ class _RRCSubProductscreenState extends State<RRCSubProductscreen> {
           itemBuilder: (context, index) {
             return ListTile(
               onTap: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context) => RRCProduct_Detail_screen(subItemIndex: index),));
+                Navigator.push(context, MaterialPageRoute(builder: (context) => RRCProduct_Detail_screen(prd_dtails: subProduct[index]),));
               },
               title: Text(subProduct[index]['pName']),
               subtitle: Text(subProduct[index]['pDesc']),
